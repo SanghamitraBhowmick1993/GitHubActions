@@ -1,9 +1,7 @@
 name: Unit Test Results (reference)
 
 on:
-  push:
-    branches:
-      -"main"
+  workflow_dispatch:
 jobs:
   debug:
     name: Debug
