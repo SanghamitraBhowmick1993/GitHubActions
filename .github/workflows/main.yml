@@ -34,7 +34,7 @@ jobs:
             unzip -d "$name" "$name.zip"
           done
       - name: Publish Unit Test Results
-        uses: EnricoMi/publish-unit-test-result-action/composite@master
+        uses: SanghamitraBhowmick1993/GitHubActions/composite@main
         with:
           commit: ${{ github.event.workflow_run.head_sha }}
           check_name: Unit Test Results (reference)
