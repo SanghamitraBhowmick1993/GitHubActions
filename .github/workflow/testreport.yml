@@ -1,7 +1,10 @@
 name: Unit Test Results (reference)
 
 on:
-  push
+  push:
+    branches:
+      -"main"
+      -"master"
 
 jobs:
   debug:
